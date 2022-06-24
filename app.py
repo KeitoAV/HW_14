@@ -13,6 +13,7 @@ def main_page():
     return "Работа с SQLite3, SQL-запросы, БД 'netflix.db'"
 
 
+
 @app.route("/movie/<title>")
 def get_page_movies_by_title(title):
     """Возвращает фильмы по title"""
